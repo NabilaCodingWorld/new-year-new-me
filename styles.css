@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("./images/banner/banner2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.head-design {
+  text-align: right;
+  padding: 100px 100px;
+}
+
+.header-text {
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-bottom: 15px;
+}
+
+.header-description {
+  color: gray;
+  margin-bottom: 18px;
+}
+
+.primary {
+  color: white;
+  background-color: #f15b22;
+  font-weight: 900;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.failure {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin: 100px 100px;
+}
+
+.photo {
+  width: 500px;
+}
+
+.plans {
+  display: flex;
+  gap: 60px;
+  margin: 40px 280px;
+}
+
+.gradient {
+  background-image: linear-gradient(
+    to right,
+    #f15b22,
+    #ffffff
+  ); /* Gradient from #f15b22 to white */
+  background-blend-mode: overlay; /* Blend mode to apply gradient over the image */
+  background-image: url("/images/watch.png"),
+    linear-gradient(to right, #f15b22, #ffffff); /* Combining image and gradient */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  margin: 80px 200px;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.gradient-text {
+  color: white;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.gradient-btn {
+  color: #f15b22;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 0;
+  font-weight: bold;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 80px;
+  align-items: center;
+}
+
+input {
+  width: 200px;
+  height: 35px;
+  margin: 10px 0;
+  background-color: black;
+  border-color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
